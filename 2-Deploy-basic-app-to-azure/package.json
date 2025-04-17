@@ -4,11 +4,13 @@
   "type": "module",
   "scripts": {
     "start": "cross-env-shell DEBUG=express:* node index.js",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "build": "echo 'No build step needed'"
   },
   "dependencies": {
     "body-parser": "^1.19.2",
     "cross-env": "^7.0.3",
+    "cross-env-shell": "^7.0.3",
     "ejs": "^3.1.6",
     "express": "^4.17.2",
     "http-errors": "^2.0.0",
