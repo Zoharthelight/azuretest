@@ -5,8 +5,9 @@
   "scripts": {
     "start": "cross-env-shell DEBUG=express:* node index.js",
     "format": "prettier --write .",
-    "build": "echo 'No build step needed'"
+    "build": "echo 'No build step reuired'"
   },
+  
   "dependencies": {
     "body-parser": "^1.19.2",
     "cross-env": "^7.0.3",
